@@ -12,9 +12,11 @@
 		44B028431EEAFE4300A6EED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B028411EEAFE4300A6EED4 /* Main.storyboard */; };
 		44B028451EEAFE4300A6EED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B028441EEAFE4300A6EED4 /* Assets.xcassets */; };
 		44B028481EEAFE4300A6EED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B028461EEAFE4300A6EED4 /* LaunchScreen.storyboard */; };
+		577207AB1ABF1FF98DB362B2 /* Pods_Ascents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5139A2472EBF90374ED66812 /* Pods_Ascents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		419C50122B69AA80D71A6F22 /* Pods-Ascents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ascents.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ascents/Pods-Ascents.release.xcconfig"; sourceTree = "<group>"; };
 		44B0283A1EEAFE4300A6EED4 /* Ascents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ascents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B0283D1EEAFE4300A6EED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B0283F1EEAFE4300A6EED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		44B028441EEAFE4300A6EED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B028471EEAFE4300A6EED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B028491EEAFE4300A6EED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5139A2472EBF90374ED66812 /* Pods_Ascents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ascents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9298A096EC08BBF732E7B09 /* Pods-Ascents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ascents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ascents/Pods-Ascents.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577207AB1ABF1FF98DB362B2 /* Pods_Ascents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				44B0283C1EEAFE4300A6EED4 /* Ascents */,
 				44B0283B1EEAFE4300A6EED4 /* Products */,
+				A94167FD9CDB6DFD7E79E133 /* Pods */,
+				5D46321DDE6DA3CAEFF581A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = Ascents;
 			sourceTree = "<group>";
 		};
+		5D46321DDE6DA3CAEFF581A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5139A2472EBF90374ED66812 /* Pods_Ascents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94167FD9CDB6DFD7E79E133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9298A096EC08BBF732E7B09 /* Pods-Ascents.debug.xcconfig */,
+				419C50122B69AA80D71A6F22 /* Pods-Ascents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B0284C1EEAFE4300A6EED4 /* Build configuration list for PBXNativeTarget "Ascents" */;
 			buildPhases = (
+				44FCF3C379789EC0228899C2 /* [CP] Check Pods Manifest.lock */,
 				44B028361EEAFE4300A6EED4 /* Sources */,
 				44B028371EEAFE4300A6EED4 /* Frameworks */,
 				44B028381EEAFE4300A6EED4 /* Resources */,
+				CEC33D88DE537E0090213512 /* [CP] Embed Pods Frameworks */,
+				E120AE084C91596ABE1254A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44FCF3C379789EC0228899C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC33D88DE537E0090213512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ascents/Pods-Ascents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E120AE084C91596ABE1254A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ascents/Pods-Ascents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44B028361EEAFE4300A6EED4 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		44B0284D1EEAFE4300A6EED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9298A096EC08BBF732E7B09 /* Pods-Ascents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9N6DSMYM2Q;
@@ -272,6 +348,7 @@
 		};
 		44B0284E1EEAFE4300A6EED4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419C50122B69AA80D71A6F22 /* Pods-Ascents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9N6DSMYM2Q;

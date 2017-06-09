@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - DZNEmptyDataSet (1.8.1)
+  - HTTPStatusCodes (3.1.1)
+  - IQKeyboardManagerSwift (4.0.9)
+  - KeychainAccess (3.0.2)
+  - Localize-Swift (1.7.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (2.2.6)
+  - RandomKit (4.5.2):
+    - ShiftOperations
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - ShiftOperations (1.0.0)
+  - String+Extensions (1.1.0)
+  - SwiftLint (0.18.1)
+  - XCGLogger (5.0.1):
+    - XCGLogger/Core (= 5.0.1)
+  - XCGLogger/Core (5.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - DZNEmptyDataSet
+  - HTTPStatusCodes
+  - IQKeyboardManagerSwift
+  - KeychainAccess
+  - Localize-Swift
+  - ObjectMapper
+  - RandomKit
+  - Realm
+  - String+Extensions
+  - SwiftLint
+  - XCGLogger
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HTTPStatusCodes: a9a24d028b1efc6585561df7eb4d334adf133273
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  KeychainAccess: a986406022dfc7c634c691ad3bec670cc6a32002
+  Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: '042708195cc46c20871cbcbec0453826398273fd'
+  RandomKit: 2a79a94e5e51e83154dde02feb05dfb2229861f4
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  ShiftOperations: 0c77c06851e7976c2665d601b46af123dbffeade
+  String+Extensions: 4c13e40b64fcfc079f93cd94160e38b576948348
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+  XCGLogger: 0b43697155d41e4a1b15fc776f319c2141646b09
+
+PODFILE CHECKSUM: f85000cfb988858f8fe9ab13f02a1681217de951
+
+COCOAPODS: 1.2.1
