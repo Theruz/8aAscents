@@ -7,7 +7,7 @@ platform :ios, '10.2'
 # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
 use_frameworks!
 
-# Pods for Medgate
+# Pods for Toto
 target 'Ascents' do
 
     pod 'Localize-Swift'        # Swift friendly localization and i18n with in-app language switching

@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  Ascents
+//
+//  Created by Theophile on 25.04.17.
+//  Copyright © 2017 Theophile. All rights reserved.
+//
+#include "Pods/Target Support Files/Pods-Toto/Pods-Toto.production.xcconfig"
+
+// To use proxy debugging, in info.plist set the NSAllowsArbitraryLoads to YES
+
+PRODUCT_BUNDLE_IDENTIFIER=com.truzicka.ascents
+PRODUCT_NAME=Ascents
+PRODUCT_MODULE_NAME=Ascents
